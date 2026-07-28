@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Repository herunterladen
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Python installieren
         uses: actions/setup-python@v5
@@ -27,11 +29,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Datenordner erstellen
+      - name: Datenordner vorbereiten
         run: |
           mkdir -p data
-          touch data/known_offers.json
-          touch data/coordinates_cache.json
+
+          if [ ! -f data/known_offers.json ]; then
+            echo "[]" > data/known_offers.json
+          fi
+
+          if [ ! -f data/coordinates_cache.json ]; then
+            echo "{}" > data/coordinates_cache.json
+          fi
 
       - name: Parkplatz-Bot starten
         env:
@@ -39,3 +47,18 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python agent.py
+
+      - name: Änderungen committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/known_offers.json data/coordinates_cache.json
+
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen gefunden."
+            exit 0
+          fi
+
+          git commit -m "Automatische Aktualisierung der Bot-Daten [skip ci]"
+          git push
