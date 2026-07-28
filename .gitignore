@@ -11,10 +11,6 @@ venv/
 # Umgebungsvariablen
 .env
 
-# Lokale Daten
-data/known_offers.json
-data/coordinates_cache.json
-
 # VS Code
 .vscode/
 
