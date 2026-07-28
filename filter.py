@@ -19,11 +19,21 @@ geolocator = Nominatim(
 
 
 def load_cache():
-    if CACHE_FILE.exists():
-        with open(CACHE_FILE, "r", encoding="utf-8") as file:
-            return json.load(file)
+    if not CACHE_FILE.exists():
+        return {}
 
-    return {}
+    try:
+        with open(CACHE_FILE, "r", encoding="utf-8") as file:
+            content = file.read().strip()
+
+            if not content:
+                return {}
+
+            return json.loads(content)
+
+    except (json.JSONDecodeError, OSError):
+        print("⚠️ Cache-Datei ist leer oder ungültig. Neuer Cache wird erstellt.")
+        return {}
 
 
 def save_cache(cache):
