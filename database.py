@@ -9,8 +9,18 @@ def load_known_offers():
     if not os.path.exists(DATABASE_FILE):
         return []
 
-    with open(DATABASE_FILE, "r", encoding="utf-8") as file:
-        return json.load(file)
+    try:
+        with open(DATABASE_FILE, "r", encoding="utf-8") as file:
+            content = file.read().strip()
+
+            if not content:
+                return []
+
+            return json.loads(content)
+
+    except (json.JSONDecodeError, OSError):
+        print("⚠️ Datenbank ist leer oder ungültig. Neue Datenbank wird erstellt.")
+        return []
 
 
 def get_new_offers(offers):
