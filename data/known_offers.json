@@ -2,51 +2,6 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "Mausohrweg 2  - 4, 12589 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "John-Locke-Str. 33  - 37, 12305 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "John-Locke-Str. 33  - 37, 12305 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "Barnetstr. 72 /73, 12305 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "Pöhlbergstr. 33, 12685 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
         "address": "Gensweg 2, 12349 Berlin",
         "price": "",
         "link": "",
@@ -308,7 +263,25 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "Barnetstr. 69, 12305 Berlin",
+        "address": "Pöhlbergstr. 33, 12685 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Lindhorstweg 31 - 37, 12487 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "John-Locke-Str. 33  - 37, 12305 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
@@ -326,7 +299,34 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "Lindhorstweg 31 - 37, 12487 Berlin",
+        "address": "Barnetstr. 69, 12305 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "John-Locke-Str. 33  - 37, 12305 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Barnetstr. 72 /73, 12305 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Mausohrweg 2  - 4, 12589 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
@@ -398,6 +398,15 @@
     {
         "source": "Gewobag",
         "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Admiralstr. 1-2/Skalitzer Str. 6, 10999 Berlin",
+        "price": "80 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02232-0402-5068/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
         "address": "Rhinstr. 145- 149, 10315 Berlin",
         "price": "ab 55 €",
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02562-0201-5042/",
@@ -419,15 +428,6 @@
         "address": "Karl-Marx-Allee 72- 90, 10243 Berlin",
         "price": "ab 75 €",
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02509-0115-5090/",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Dolgenseestr. 8 u.a., 10319 Berlin",
-        "price": "90 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02571-0301-5010/",
         "latitude": 0.0,
         "longitude": 0.0
     },
