@@ -74,34 +74,7 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "John-Locke-Str. 33  - 37, 12305 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "John-Locke-Str. 33  - 37, 12305 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
         "address": "Barnetstr. 68 Stellpl., 12305 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "Barnetstr. 72 /73, 12305 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
@@ -191,16 +164,7 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "Barnetstr. 69, 12305 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "Pöhlbergstr. 33, 12685 Berlin",
+        "address": "Knyphausenweg 18, 12349 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
@@ -210,6 +174,15 @@
         "source": "STADT UND LAND",
         "title": "",
         "address": "John-Locke-Str. 20 - 30, 12305 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Werbellinstr. 59, 12053 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
@@ -326,7 +299,7 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "Knyphausenweg 18, 12349 Berlin",
+        "address": "Pöhlbergstr. 33, 12685 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
@@ -335,7 +308,34 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "Werbellinstr. 59, 12053 Berlin",
+        "address": "John-Locke-Str. 33  - 37, 12305 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "John-Locke-Str. 33  - 37, 12305 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Barnetstr. 72 /73, 12305 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Barnetstr. 69, 12305 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
