@@ -326,7 +326,7 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "Barnetstr. 69, 12305 Berlin",
+        "address": "Werbellinstr. 59, 12053 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
@@ -335,7 +335,7 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "Werbellinstr. 59, 12053 Berlin",
+        "address": "Barnetstr. 69, 12305 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
@@ -407,6 +407,15 @@
     {
         "source": "Gewobag",
         "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Romanshorner Weg 59, 13407 Berlin",
+        "price": "ab 73.18 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-73709-0101-5004/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
         "address": "Rhinstr. 145- 149, 10315 Berlin",
         "price": "ab 55 €",
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02562-0201-5078/",
@@ -464,15 +473,6 @@
         "address": "Buckower Damm 151 u.a., 12349 Berlin",
         "price": "ab 55 €",
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01731-0301-5018/",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Romanshorner Weg 59, 13407 Berlin",
-        "price": "75.85 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-73709-0101-5034/",
         "latitude": 0.0,
         "longitude": 0.0
     },
