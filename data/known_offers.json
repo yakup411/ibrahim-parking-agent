@@ -379,15 +379,6 @@
     },
     {
         "source": "Gewobag",
-        "title": "Tegel (Bezirk)",
-        "address": "Bernauer Str. 80, 13507 Berlin",
-        "price": "55 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01261-0102-5020/",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
         "title": "Spandau (Bezirk)",
         "address": "13595 Berlin/Spandau",
         "price": "ab 24.9 €",
@@ -541,6 +532,15 @@
     },
     {
         "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "David-Friedländer-Weg 104 u.a. ST, 13057 Berlin",
+        "price": "ab 40 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02559-5006-5362/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
         "title": "Stellplatz im Freien (Stellplatznr. 163)",
         "address": "Neheimer Str. 6/ 8, 13507 Berlin",
         "price": "55 €",
@@ -563,15 +563,6 @@
         "address": "12353 Berlin/Neukölln",
         "price": "ab 82.5 €",
         "link": "https://www.gewobag.de/mietangebote/standort/7100-77701-0902?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "David-Friedländer-Weg 104 u.a. ST, 13057 Berlin",
-        "price": "ab 40 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02559-5006-5362/",
         "latitude": 0.0,
         "longitude": 0.0
     },
@@ -739,6 +730,15 @@
     },
     {
         "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Tegernauer Zeile 1, 13469 Berlin",
+        "price": "45 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01244-0101-5022/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
         "title": "Waidmannslust (Bezirk)",
         "address": "13469 Berlin/Reinickendorf",
         "price": "ab 45 €",
@@ -802,10 +802,10 @@
     },
     {
         "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Tegernauer Zeile 1, 13469 Berlin",
-        "price": "45 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01244-0101-5022/",
+        "title": "Marienfelde (Bezirk)",
+        "address": "12277 Berlin/Tempelhof-Schöneberg",
+        "price": "ab 39 €",
+        "link": "https://www.gewobag.de/mietangebote/standort/7100-76400-0101?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
         "latitude": 0.0,
         "longitude": 0.0
     },
@@ -964,10 +964,10 @@
     },
     {
         "source": "Gewobag",
-        "title": "Marienfelde (Bezirk)",
-        "address": "12277 Berlin/Tempelhof-Schöneberg",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Belßstr. 2- 4, 12277 Berlin",
         "price": "ab 39 €",
-        "link": "https://www.gewobag.de/mietangebote/standort/7100-76400-0101?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-76400-0101-5012/",
         "latitude": 0.0,
         "longitude": 0.0
     },
@@ -1031,15 +1031,6 @@
         "address": "12305 Berlin/Tempelhof-Schöneberg",
         "price": "ab 29 €",
         "link": "https://www.gewobag.de/mietangebote/standort/7100-76301-0201?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Belßstr. 2- 4, 12277 Berlin",
-        "price": "ab 39 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-76400-0101-5012/",
         "latitude": 0.0,
         "longitude": 0.0
     },
@@ -1198,19 +1189,19 @@
     },
     {
         "source": "Gewobag",
-        "title": "Falkenberg (Bezirk)",
-        "address": "13057 Berlin/Lichtenberg",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Johann-J-Engel-Str./David-Friedl.-Weg 2- 34, 13057 Berlin",
         "price": "ab 40 €",
-        "link": "https://www.gewobag.de/mietangebote/standort/0100-02559-5004?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02558-5003-5140/",
         "latitude": 0.0,
         "longitude": 0.0
     },
     {
         "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Johann-J-Engel-Str./David-Friedl.-Weg 2- 34, 13057 Berlin",
+        "title": "Falkenberg (Bezirk)",
+        "address": "13057 Berlin/Lichtenberg",
         "price": "ab 40 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02558-5003-5140/",
+        "link": "https://www.gewobag.de/mietangebote/standort/0100-02559-5004?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
         "latitude": 0.0,
         "longitude": 0.0
     },
