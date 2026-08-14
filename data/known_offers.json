@@ -299,7 +299,7 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "Pöhlbergstr. 33, 12685 Berlin",
+        "address": "Pöhlbergstr. 47, 12685 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
@@ -317,6 +317,15 @@
     {
         "source": "STADT UND LAND",
         "title": "",
+        "address": "Pöhlbergstr. 47, 12685 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
         "address": "Pöhlbergstr. 43, 12685 Berlin",
         "price": "",
         "link": "",
@@ -326,16 +335,7 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "Pöhlbergstr. 47, 12685 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "Pöhlbergstr. 47, 12685 Berlin",
+        "address": "Pöhlbergstr. 33, 12685 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
