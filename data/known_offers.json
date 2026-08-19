@@ -902,15 +902,6 @@
     {
         "source": "Gewobag",
         "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Malchower Weg 117/Drossener Str., 13053 Berlin",
-        "price": "ab 60 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02572-1701-5055/",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
         "address": "David-Friedländer-Weg 130/ 140 ST, 13057 Berlin",
         "price": "ab 40 €",
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02559-5007-5376/",
@@ -1009,6 +1000,15 @@
     },
     {
         "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Johann-J-Engel-Str. 28/Am Dörferweg 4, 13057 Berlin",
+        "price": "ab 40 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02558-5001-5014/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
         "title": "Marienfelde (Bezirk)",
         "address": "12277 Berlin/Tempelhof-Schöneberg",
         "price": "ab 39 €",
@@ -1067,15 +1067,6 @@
         "address": "Friesenstr. 1, 10965 Berlin",
         "price": "81.81 €",
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02360-0101-5006/",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Johann-J-Engel-Str. 28/Am Dörferweg 4, 13057 Berlin",
-        "price": "ab 40 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02558-5001-5014/",
         "latitude": 0.0,
         "longitude": 0.0
     },
@@ -1193,6 +1184,15 @@
         "address": "Alt-Rudow 24, 12357 Berlin",
         "price": "ab 55 €",
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01736-0201-5037/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Malchower Weg 117/Drossener Str., 13053 Berlin",
+        "price": "ab 60 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02572-1701-5078/",
         "latitude": 0.0,
         "longitude": 0.0
     },
