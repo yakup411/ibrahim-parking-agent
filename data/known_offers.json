@@ -29,15 +29,6 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "Mausohrweg 2  - 4, 12589 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
         "address": "Barnetstr. 69, 12305 Berlin",
         "price": "",
         "link": "",
@@ -47,34 +38,7 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "John-Locke-Str. 33  - 37, 12305 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "John-Locke-Str. 33  - 37, 12305 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
         "address": "Barnetstr. 68 Stellpl., 12305 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "Barnetstr. 72 /73, 12305 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
@@ -138,51 +102,6 @@
         "source": "STADT UND LAND",
         "title": "",
         "address": "Barnetstr. 78, 12305 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "Pöhlbergstr. 47, 12685 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "Pöhlbergstr. 41, 12685 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "Pöhlbergstr. 47, 12685 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "Pöhlbergstr. 43, 12685 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "Werbellinstr. 59, 12053 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
@@ -317,7 +236,43 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "Barnetstr. 69, 12305 Berlin",
+        "address": "Mausohrweg 2  - 4, 12589 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "John-Locke-Str. 20 - 30, 12305 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "John-Locke-Str. 33  - 37, 12305 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "John-Locke-Str. 33  - 37, 12305 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Barnetstr. 72 /73, 12305 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
@@ -335,7 +290,52 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "John-Locke-Str. 20 - 30, 12305 Berlin",
+        "address": "Barnetstr. 69, 12305 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Pöhlbergstr. 47, 12685 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Pöhlbergstr. 41, 12685 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Pöhlbergstr. 43, 12685 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Pöhlbergstr. 47, 12685 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Werbellinstr. 59, 12053 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
