@@ -29,33 +29,6 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "John-Locke-Str. 33  - 37, 12305 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "John-Locke-Str. 33  - 37, 12305 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "Mausohrweg 2  - 4, 12589 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
         "address": "Barnetstr. 69, 12305 Berlin",
         "price": "",
         "link": "",
@@ -66,15 +39,6 @@
         "source": "STADT UND LAND",
         "title": "",
         "address": "Barnetstr. 68 Stellpl., 12305 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "Barnetstr. 72 /73, 12305 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
@@ -407,7 +371,7 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "Barnetstr. 69, 12305 Berlin",
+        "address": "Hermsdorfer Str. 11, 12627 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
@@ -416,7 +380,43 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "Hermsdorfer Str. 11, 12627 Berlin",
+        "address": "Mausohrweg 2  - 4, 12589 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "John-Locke-Str. 33  - 37, 12305 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "John-Locke-Str. 33  - 37, 12305 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Barnetstr. 72 /73, 12305 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Barnetstr. 69, 12305 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
