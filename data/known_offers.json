@@ -29,51 +29,6 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "Pöhlbergstr. 47, 12685 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "Pöhlbergstr. 41, 12685 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "Werbellinstr. 59, 12053 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "John-Locke-Str. 20 - 30, 12305 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "Barnetstr. 69, 12305 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
         "address": "John-Locke-Str. 33  - 37, 12305 Berlin",
         "price": "",
         "link": "",
@@ -102,15 +57,6 @@
         "source": "STADT UND LAND",
         "title": "",
         "address": "Barnetstr. 72 /73, 12305 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
-        "address": "Barnetstr. 69, 12305 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
@@ -417,6 +363,60 @@
         "source": "STADT UND LAND",
         "title": "",
         "address": "Lindhorstweg 31 - 37, 12487 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Pöhlbergstr. 47, 12685 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Pöhlbergstr. 41, 12685 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Werbellinstr. 59, 12053 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Barnetstr. 69, 12305 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Barnetstr. 69, 12305 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "John-Locke-Str. 20 - 30, 12305 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
@@ -1288,15 +1288,6 @@
     },
     {
         "source": "Gewobag",
-        "title": "Kreuzberg (Bezirk)",
-        "address": "Friesenstr. 1, 10965 Berlin",
-        "price": "81.81 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02360-0101-5006/",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
         "title": "Lichtenrade (Bezirk)",
         "address": "12305 Berlin/Tempelhof-Schöneberg",
         "price": "ab 29 €",
@@ -1319,15 +1310,6 @@
         "address": "Steegerstr. 12- 42, 13359 Berlin",
         "price": "55 €",
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02101-0701-5013/",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Riemannstr. 22, 10961 Berlin",
-        "price": "85 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-76601-0201-5001/",
         "latitude": 0.0,
         "longitude": 0.0
     },
