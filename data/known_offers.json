@@ -281,15 +281,6 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "Lindhorstweg 31 - 37, 12487 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
         "address": "John-Locke-Str. 39  - 41, 12305 Berlin",
         "price": "",
         "link": "",
@@ -423,6 +414,33 @@
         "longitude": 0.0
     },
     {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Lindhorstweg 31 - 37, 12487 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Niederschöneweide (Bezirk)",
+        "address": "Bruno-Bürgel-Weg 54/ 56, 12439 Berlin",
+        "price": "40 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02567-0201-5020/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Prenzlauer Berg (Bezirk)",
+        "address": "Ella-Kay-Str. 4- 22, 10405 Berlin",
+        "price": "75 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/1000-00264-0101-9012/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
         "source": "Gewobag",
         "title": "Marienfelde (Bezirk)",
         "address": "12277 Berlin/Tempelhof-Schöneberg",
@@ -496,19 +514,46 @@
     },
     {
         "source": "Gewobag",
-        "title": "Waidmannslust (Bezirk)",
-        "address": "Titiseestr. 37- 49, 13469 Berlin",
-        "price": "45 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01239-0701-5031/",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Ostseestr. 20- 24, 10409 Berlin",
+        "price": "65 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/1000-00168-0801-5046/",
         "latitude": 0.0,
         "longitude": 0.0
     },
     {
         "source": "Gewobag",
-        "title": "Staaken (Bezirk)",
-        "address": "Blasewitzer Ring 31, 13593 Berlin",
-        "price": "45 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01932-0601-5011/",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Namslaustr. 83, 13507 Berlin",
+        "price": "ab 55 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01264-0101-5150/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Danziger Str. 170, 10407 Berlin",
+        "price": "75 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/1000-00157-0202-5052/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Danziger Str. 175, 10407 Berlin",
+        "price": "75 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/1000-00156-0104-5013/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Pasteurstr. 45, 10407 Berlin",
+        "price": "75 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/1000-00157-0501-5003/",
         "latitude": 0.0,
         "longitude": 0.0
     },
@@ -569,15 +614,6 @@
     {
         "source": "Gewobag",
         "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Namslaustr. 83, 13507 Berlin",
-        "price": "ab 55 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01264-0101-5054/",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
         "address": "Gatower Str. 41, 13595 Berlin",
         "price": "30.68 €",
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01964-0101-5022/",
@@ -622,37 +658,19 @@
     },
     {
         "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Titiseestr. 49, 13469 Berlin",
+        "title": "Waidmannslust (Bezirk)",
+        "address": "Titiseestr. 37- 49, 13469 Berlin",
         "price": "45 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01239-0602-5017/",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01239-0701-5031/",
         "latitude": 0.0,
         "longitude": 0.0
     },
     {
         "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Tiefgarage 2, Emmentaler Str., 13409 Berlin",
-        "price": "80 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01236-0116-5318/",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Maulbeerallee 45- 55, 13593 Berlin",
-        "price": "ab 40 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01937-1201-5016/",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Maulbeerallee 25- 33, 13593 Berlin",
-        "price": "ab 40 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01937-1401-5210/",
+        "title": "Staaken (Bezirk)",
+        "address": "Blasewitzer Ring 31, 13593 Berlin",
+        "price": "45 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01932-0601-5011/",
         "latitude": 0.0,
         "longitude": 0.0
     },
@@ -707,6 +725,42 @@
         "address": "13595 Berlin/Spandau",
         "price": "ab 24.9 €",
         "link": "https://www.gewobag.de/mietangebote/standort/0100-01965-0101?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Titiseestr. 49, 13469 Berlin",
+        "price": "45 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01239-0602-5017/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Tiefgarage 2, Emmentaler Str., 13409 Berlin",
+        "price": "80 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01236-0116-5318/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Maulbeerallee 45- 55, 13593 Berlin",
+        "price": "ab 40 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01937-1201-5016/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Maulbeerallee 25- 33, 13593 Berlin",
+        "price": "ab 40 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01937-1401-5210/",
         "latitude": 0.0,
         "longitude": 0.0
     },
@@ -802,6 +856,33 @@
     },
     {
         "source": "Gewobag",
+        "title": "Rosenthal (Bezirk)",
+        "address": "An der Vogelweide  2- 19, 13158 Berlin",
+        "price": "55 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02560-0901-5952/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Buckow (Bezirk)",
+        "address": "12353 Berlin/Neukölln",
+        "price": "ab 82.5 €",
+        "link": "https://www.gewobag.de/mietangebote/standort/7100-77701-0902?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Waidmannslust (Bezirk)",
+        "address": "13469 Berlin/Reinickendorf",
+        "price": "ab 45 €",
+        "link": "https://www.gewobag.de/mietangebote/standort/0100-01240-1902?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
         "title": "Stellplätze/Garagen (Bezirk)",
         "address": "David-Friedländer-Weg 123, 13057 Berlin",
         "price": "ab 40 €",
@@ -851,69 +932,6 @@
         "address": "Berliner Str. 67, 13189 Berlin",
         "price": "65 €",
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/1000-00277-0301-5019/",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Rosenthal (Bezirk)",
-        "address": "An der Vogelweide  2- 19, 13158 Berlin",
-        "price": "55 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02560-0901-5952/",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Buckow (Bezirk)",
-        "address": "12353 Berlin/Neukölln",
-        "price": "ab 82.5 €",
-        "link": "https://www.gewobag.de/mietangebote/standort/7100-77701-0902?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Waidmannslust (Bezirk)",
-        "address": "13469 Berlin/Reinickendorf",
-        "price": "ab 45 €",
-        "link": "https://www.gewobag.de/mietangebote/standort/0100-01240-1902?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Waidmannslust (Bezirk)",
-        "address": "13469 Berlin/Reinickendorf",
-        "price": "ab 45 €",
-        "link": "https://www.gewobag.de/mietangebote/standort/0100-01240-1905?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Buckow (Bezirk)",
-        "address": "12349 Berlin/Neukölln",
-        "price": "ab 35 €",
-        "link": "https://www.gewobag.de/mietangebote/standort/0300-05702-0301?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Mariendorf (Bezirk)",
-        "address": "12107 Berlin/Tempelhof-Schöneberg",
-        "price": "ab 88.34 €",
-        "link": "https://www.gewobag.de/mietangebote/standort/7100-78161-0301?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Charlottenburg (Bezirk)",
-        "address": "Krumme Str. 85, 10585 Berlin",
-        "price": "70 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/vms-0100-02614-musterstellplatz/",
         "latitude": 0.0,
         "longitude": 0.0
     },
@@ -1036,46 +1054,37 @@
     },
     {
         "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Zabel-Krüger-Damm 22 - 26, 13469 Berlin",
+        "title": "Waidmannslust (Bezirk)",
+        "address": "13469 Berlin/Reinickendorf",
         "price": "ab 45 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01240-1905-5188/",
+        "link": "https://www.gewobag.de/mietangebote/standort/0100-01240-1905?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
         "latitude": 0.0,
         "longitude": 0.0
     },
     {
         "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Zabel-Krüger-Damm 50, 13469 Berlin",
-        "price": "ab 45 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01243-0101-5073/",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Muschelkalkweg 15- 17, 12349 Berlin",
+        "title": "Buckow (Bezirk)",
+        "address": "12349 Berlin/Neukölln",
         "price": "ab 35 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0300-05702-0301-5925/",
+        "link": "https://www.gewobag.de/mietangebote/standort/0300-05702-0301?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
         "latitude": 0.0,
         "longitude": 0.0
     },
     {
         "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Grüntenstr. 84, 12107 Berlin",
+        "title": "Mariendorf (Bezirk)",
+        "address": "12107 Berlin/Tempelhof-Schöneberg",
         "price": "ab 88.34 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-78161-0301-5043/",
+        "link": "https://www.gewobag.de/mietangebote/standort/7100-78161-0301?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
         "latitude": 0.0,
         "longitude": 0.0
     },
     {
         "source": "Gewobag",
-        "title": "Stellplätze/Garagen (Bezirk)",
-        "address": "Herthastr. 21-25, 14193 Berlin",
-        "price": "50 €",
-        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/vms-7100-73601-musterstellplatz/",
+        "title": "Charlottenburg (Bezirk)",
+        "address": "Krumme Str. 85, 10585 Berlin",
+        "price": "70 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/vms-0100-02614-musterstellplatz/",
         "latitude": 0.0,
         "longitude": 0.0
     },
@@ -1135,10 +1144,46 @@
     },
     {
         "source": "Gewobag",
-        "title": "Rudow (Bezirk)",
-        "address": "12357 Berlin/Neukölln",
-        "price": "ab 55 €",
-        "link": "https://www.gewobag.de/mietangebote/standort/0100-01736-0201?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Zabel-Krüger-Damm 22 - 26, 13469 Berlin",
+        "price": "ab 45 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01240-1905-5188/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Zabel-Krüger-Damm 50, 13469 Berlin",
+        "price": "ab 45 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01243-0101-5073/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Muschelkalkweg 15- 17, 12349 Berlin",
+        "price": "ab 35 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0300-05702-0301-5925/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Grüntenstr. 84, 12107 Berlin",
+        "price": "ab 88.34 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-78161-0301-5043/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Herthastr. 21-25, 14193 Berlin",
+        "price": "50 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/vms-7100-73601-musterstellplatz/",
         "latitude": 0.0,
         "longitude": 0.0
     },
@@ -1252,6 +1297,33 @@
     },
     {
         "source": "Gewobag",
+        "title": "Rudow (Bezirk)",
+        "address": "12357 Berlin/Neukölln",
+        "price": "ab 55 €",
+        "link": "https://www.gewobag.de/mietangebote/standort/0100-01736-0201?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Lichtenrade (Bezirk)",
+        "address": "12305 Berlin/Tempelhof-Schöneberg",
+        "price": "ab 29 €",
+        "link": "https://www.gewobag.de/mietangebote/standort/7100-76301-0201?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Falkenberg (Bezirk)",
+        "address": "13057 Berlin/Lichtenberg",
+        "price": "ab 40 €",
+        "link": "https://www.gewobag.de/mietangebote/standort/0100-02559-5004?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
         "title": "Stellplätze/Garagen (Bezirk)",
         "address": "Einsteinstr. 4A, 10409 Berlin",
         "price": "ab 75 €",
@@ -1301,24 +1373,6 @@
         "address": "Steegerstr. 12- 42, 13359 Berlin",
         "price": "55 €",
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02101-0701-5013/",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Lichtenrade (Bezirk)",
-        "address": "12305 Berlin/Tempelhof-Schöneberg",
-        "price": "ab 29 €",
-        "link": "https://www.gewobag.de/mietangebote/standort/7100-76301-0201?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "Gewobag",
-        "title": "Falkenberg (Bezirk)",
-        "address": "13057 Berlin/Lichtenberg",
-        "price": "ab 40 €",
-        "link": "https://www.gewobag.de/mietangebote/standort/0100-02559-5004?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
         "latitude": 0.0,
         "longitude": 0.0
     },
