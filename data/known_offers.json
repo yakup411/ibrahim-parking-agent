@@ -272,15 +272,6 @@
     {
         "source": "STADT UND LAND",
         "title": "",
-        "address": "Mausohrweg 2  - 4, 12589 Berlin",
-        "price": "",
-        "link": "",
-        "latitude": 0.0,
-        "longitude": 0.0
-    },
-    {
-        "source": "STADT UND LAND",
-        "title": "",
         "address": "Pöhlbergstr. 33, 12685 Berlin",
         "price": "",
         "link": "",
@@ -408,6 +399,15 @@
         "source": "STADT UND LAND",
         "title": "",
         "address": "Barnetstr. 69, 12305 Berlin",
+        "price": "",
+        "link": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "STADT UND LAND",
+        "title": "",
+        "address": "Mausohrweg 2  - 4, 12589 Berlin",
         "price": "",
         "link": "",
         "latitude": 0.0,
