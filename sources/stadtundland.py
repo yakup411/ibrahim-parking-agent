@@ -1,5 +1,4 @@
-import requests
-
+from http_client import source_session
 from offer import Offer
 
 API_URL = "https://d2396ha8oiavw0.cloudfront.net/sul-main/immoSearch"
@@ -26,7 +25,7 @@ def get_offers():
     offset = 0
 
     while True:
-        response = requests.post(
+        response = source_session.post(
             API_URL,
             json={
                 "offset": offset,
@@ -40,25 +39,33 @@ def get_offers():
 
         result = response.json()
 
-        offers = result["data"]
+        offers = result.get("data")
+        if not isinstance(offers, list):
+            raise ValueError("STADT UND LAND returned an invalid offers list")
 
         if not offers:
             break
 
         for offer in offers:
-            all_offers.append(
-                Offer(
-                    source="STADT UND LAND",
-                    title=offer.get("title", ""),
-                    address=format_address(offer.get("address")),
-                    price=offer.get("rent", ""),
-                    link=offer.get("url", ""),
-                    latitude=float(offer.get("latitude") or 0.0),
-                    longitude=float(offer.get("longitude") or 0.0),
+            try:
+                if not isinstance(offer, dict):
+                    raise ValueError("offer is not an object")
+                all_offers.append(
+                    Offer(
+                        source="STADT UND LAND",
+                        title=str(offer.get("title") or ""),
+                        address=format_address(offer.get("address")),
+                        price=str(offer.get("rent") or ""),
+                        link=str(offer.get("url") or ""),
+                        latitude=float(offer.get("latitude") or 0.0),
+                        longitude=float(offer.get("longitude") or 0.0),
+                    )
                 )
-            )
+            except (AttributeError, OverflowError, TypeError, ValueError) as exc:
+                print(f"⚠️ Fehlerhaftes STADT-UND-LAND-Angebot übersprungen ({type(exc).__name__}).")
 
-        if len(all_offers) >= result["count"]:
+        count = result.get("count")
+        if isinstance(count, int) and len(all_offers) >= count:
             break
 
         offset += len(offers)
