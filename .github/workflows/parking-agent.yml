@@ -1,26 +1,57 @@
 name: Ibrahim Parking Agent
 
 on:
+  pull_request:
+    branches:
+      - main
+
   workflow_dispatch:
 
   schedule:
     - cron: "*/15 * * * *"
 
-permissions:
-  contents: write
+concurrency:
+  group: ibrahim-parking-agent
+  cancel-in-progress: false
 
 jobs:
-  parking-agent:
-    runs-on: ubuntu-latest
+  tests:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
 
     steps:
       - name: Repository herunterladen
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+
+      - name: Python installieren
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Abhängigkeiten installieren
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Tests ausführen
+        run: python -m unittest discover -s tests -v
+
+  parking-agent:
+    needs: tests
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+
+    steps:
+      - name: Repository herunterladen
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Python installieren
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -32,10 +63,6 @@ jobs:
       - name: Datenordner vorbereiten
         run: |
           mkdir -p data
-
-          if [ ! -f data/known_offers.json ]; then
-            echo "[]" > data/known_offers.json
-          fi
 
           if [ ! -f data/coordinates_cache.json ]; then
             echo "{}" > data/coordinates_cache.json

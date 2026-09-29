@@ -1,6 +1,6 @@
-import requests
 from bs4 import BeautifulSoup
 
+from http_client import source_session
 from offer import Offer
 
 BASE_URL = "https://www.gewobag.de/fuer-mietinteressentinnen/suche/parken"
@@ -24,7 +24,7 @@ QUERY = (
 
 def get_address(detail_url):
     try:
-        response = requests.get(
+        response = source_session.get(
             detail_url,
             headers={"User-Agent": "Mozilla/5.0"},
             timeout=30,
@@ -42,8 +42,8 @@ def get_address(detail_url):
             if "Berlin" in line and any(char.isdigit() for char in line):
                 return line
 
-    except Exception:
-        pass
+    except Exception as exc:
+        print(f"⚠️ Angebotsadresse konnte nicht geladen werden ({type(exc).__name__}).")
 
     return ""
 
@@ -65,7 +65,7 @@ def get_offers():
 
         print(f"📄 Seite {page}")
 
-        response = requests.get(
+        response = source_session.get(
             url,
             headers={"User-Agent": "Mozilla/5.0"},
             timeout=30,
@@ -81,57 +81,41 @@ def get_offers():
         new_offers = 0
 
         for article in soup.find_all("article"):
+            try:
+                link = article.find("a", href=True)
+                if not link:
+                    continue
 
-            link = article.find("a", href=True)
+                href = link["href"]
+                if "/mietangebote/" not in href:
+                    continue
+                if href.startswith("/"):
+                    href = "https://www.gewobag.de" + href
+                if href in seen_links:
+                    continue
+                seen_links.add(href)
 
-            if not link:
-                continue
-
-            href = link["href"]
-
-            if "/mietangebote/" not in href:
-                continue
-
-            if href.startswith("/"):
-                href = "https://www.gewobag.de" + href
-
-            if href in seen_links:
-                continue
-
-            seen_links.add(href)
-
-            lines = [
-                line.strip()
-                for line in article.get_text("\n", strip=True).split("\n")
-                if line.strip()
-            ]
-
-            title = "Stellplatz"
-            price = ""
-
-            if len(lines) >= 2:
-                title = f"{lines[1]} ({lines[0]})"
-
-            for line in lines:
-                if "€" in line:
-                    price = line
-                    break
-
-            address = get_address(href)
-
-            offers.append(
-                Offer(
-                    source="Gewobag",
-                    title=title,
-                    address=address,
-                    price=price,
-                    link=href,
-                    latitude=0.0,
-                    longitude=0.0,
+                lines = [
+                    line.strip()
+                    for line in article.get_text("\n", strip=True).split("\n")
+                    if line.strip()
+                ]
+                title = f"{lines[1]} ({lines[0]})" if len(lines) >= 2 else "Stellplatz"
+                price = next((line for line in lines if "€" in line), "")
+                offers.append(
+                    Offer(
+                        source="Gewobag",
+                        title=title,
+                        address=get_address(href),
+                        price=price,
+                        link=href,
+                        latitude=0.0,
+                        longitude=0.0,
+                    )
                 )
-            )
-
-            new_offers += 1
+                new_offers += 1
+            except Exception as exc:
+                print(f"⚠️ Fehlerhaftes Gewobag-Angebot übersprungen ({type(exc).__name__}).")
 
         print(f"   → Neue Angebote: {new_offers}")
 
