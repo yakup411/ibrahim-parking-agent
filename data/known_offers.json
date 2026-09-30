@@ -1654,5 +1654,14 @@
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01762-0101-5018/",
         "latitude": 0.0,
         "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Altenhofer Str. 30, 13055 Berlin",
+        "price": "ab 55 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02561-0201-5068/",
+        "latitude": 0.0,
+        "longitude": 0.0
     }
 ]
