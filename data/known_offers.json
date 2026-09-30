@@ -1546,5 +1546,113 @@
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0300-05017-0401-5924/",
         "latitude": 0.0,
         "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Waidmannslust (Bezirk)",
+        "address": "13469 Berlin/Reinickendorf",
+        "price": "ab 45 €",
+        "link": "https://www.gewobag.de/mietangebote/standort/0100-01238-0501?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Waidmannslust (Bezirk)",
+        "address": "13469 Berlin/Reinickendorf",
+        "price": "ab 45 €",
+        "link": "https://www.gewobag.de/mietangebote/standort/0100-01238-0601?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Waidmannslust (Bezirk)",
+        "address": "13469 Berlin/Reinickendorf",
+        "price": "ab 45 €",
+        "link": "https://www.gewobag.de/mietangebote/standort/0100-01239-0701?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Waidmannslust (Bezirk)",
+        "address": "13469 Berlin/Reinickendorf",
+        "price": "ab 45 €",
+        "link": "https://www.gewobag.de/mietangebote/standort/0100-01240-1906?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Schluchseestr. 51- 57, 13469 Berlin",
+        "price": "ab 45 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01238-0501-5123/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Titiseestr. 49, 13469 Berlin",
+        "price": "ab 45 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01239-0602-5015/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Titiseestr. 17- 35, 13469 Berlin",
+        "price": "ab 45 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01238-0601-5169/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Schluchseestr. 3, 13469 Berlin",
+        "price": "ab 45 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01241-0601-5002/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Titiseestr. 37- 49, 13469 Berlin",
+        "price": "ab 45 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01239-0701-5033/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Zabel-Krüger-Damm 38, 13469 Berlin",
+        "price": "ab 45 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01240-1906-5201/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplatz im Freien (Stellplatznr. 41)",
+        "address": "Schluchseestr. 51- 57, 13469 Berlin",
+        "price": "45 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01238-0501-5126/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Britz (Bezirk)",
+        "address": "Suderoder Str. 19, 12347 Berlin",
+        "price": "78.8 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01762-0101-5018/",
+        "latitude": 0.0,
+        "longitude": 0.0
     }
 ]
