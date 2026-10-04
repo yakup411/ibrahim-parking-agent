@@ -13,6 +13,10 @@ class DatabaseError(RuntimeError):
     """Raised when the known-offers file cannot be trusted or saved."""
 
 
+def known_offers_file_exists():
+    return DATABASE_FILE.exists()
+
+
 def _value(offer, name, default=""):
     if isinstance(offer, dict):
         return offer.get(name, default)
@@ -53,8 +57,6 @@ def load_known_offers():
         records = json.loads(content)
         if not isinstance(records, list) or any(not isinstance(item, dict) for item in records):
             raise DatabaseError("Known-offers database has an unexpected structure.")
-        if not records:
-            raise DatabaseError("Known-offers database contains no records; refusing a false first start.")
         return records
     except (json.JSONDecodeError, OSError) as exc:
         raise DatabaseError("Known-offers database is unreadable; refusing to overwrite it.") from exc

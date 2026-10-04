@@ -1,5 +1,12 @@
 from config import SEARCH_ADDRESS, SEARCH_LATITUDE, SEARCH_LONGITUDE, SEARCH_RADIUS_KM
-from database import DatabaseError, get_new_offers, load_known_offers, offer_key, save_known_offers
+from database import (
+    DatabaseError,
+    get_new_offers,
+    known_offers_file_exists,
+    load_known_offers,
+    offer_key,
+    save_known_offers,
+)
 from filter import is_within_radius
 from source_manager import get_all_offers
 from telegram_bot import send_telegram_message
@@ -24,6 +31,7 @@ def main():
     print(f"📍 Suchadresse: {SEARCH_ADDRESS}")
     print(f"📏 Radius: {SEARCH_RADIUS_KM} km")
 
+    first_start = not known_offers_file_exists()
     try:
         known_offers = load_known_offers()
     except DatabaseError as exc:
@@ -39,7 +47,7 @@ def main():
     print(f"📦 Insgesamt gefunden: {len(offers)} Angebote")
     print(f"💾 Bekannte Angebote: {len(known_offers)}")
 
-    if not known_offers:
+    if first_start:
         print("🆕 Erster Start erkannt.")
         print("💾 Speichere aktuelle Angebote als bekannt; es werden keine Telegram-Nachrichten versendet.")
         try:

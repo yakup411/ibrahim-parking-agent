@@ -58,11 +58,16 @@ class DatabaseTests(unittest.TestCase):
 
     def test_corrupt_and_empty_database_are_preserved_and_reported(self):
         self.database_file.parent.mkdir()
-        for content in ("{bad json", "", "{}", "[]"):
+        for content in ("{bad json", "", "{}"):
             self.database_file.write_text(content, encoding="utf-8")
             with self.subTest(content=content), self.assertRaises(database.DatabaseError):
                 database.load_known_offers()
             self.assertEqual(self.database_file.read_text(encoding="utf-8"), content)
+
+    def test_empty_array_is_a_valid_initialized_database(self):
+        self.database_file.parent.mkdir()
+        self.database_file.write_text("[]", encoding="utf-8")
+        self.assertEqual(database.load_known_offers(), [])
 
     def test_save_is_valid_json_and_round_trips(self):
         expected = [make_offer()]

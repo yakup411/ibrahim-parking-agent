@@ -45,12 +45,34 @@ class RuntimeSafetyTests(unittest.TestCase):
         ), self.assertRaises(RuntimeError):
             source_manager.get_all_offers()
 
-    def test_empty_existing_database_does_not_trigger_a_false_first_start(self):
+    def test_empty_existing_database_is_processed_as_an_initialized_state(self):
         self.database_file.write_text("[]", encoding="utf-8")
-        with patch.object(agent, "get_all_offers") as fetch:
+        offer = make_offer("after empty baseline", "https://example.com/after-empty-baseline")
+        with patch.object(agent, "get_all_offers", return_value=[offer]) as fetch, patch.object(
+            agent, "is_within_radius", return_value=(True, 0.1)
+        ), patch.object(agent, "send_telegram_message") as send:
             agent.main()
-        fetch.assert_not_called()
+        fetch.assert_called_once_with()
+        send.assert_called_once()
+        self.assertEqual(database.load_known_offers(), [offer.__dict__])
+
+    def test_zero_offer_first_start_saves_empty_baseline_and_next_run_is_normal(self):
+        with patch.object(agent, "get_all_offers", return_value=[]), patch.object(
+            agent, "send_telegram_message"
+        ) as first_start_send:
+            agent.main()
+        first_start_send.assert_not_called()
+        self.assertTrue(self.database_file.exists())
         self.assertEqual(self.database_file.read_text(encoding="utf-8"), "[]")
+        self.assertEqual(database.load_known_offers(), [])
+
+        later_offer = make_offer("arrived later", "https://example.com/later")
+        with patch.object(agent, "get_all_offers", return_value=[later_offer]), patch.object(
+            agent, "is_within_radius", return_value=(True, 0.1)
+        ), patch.object(agent, "send_telegram_message") as next_run_send:
+            agent.main()
+        next_run_send.assert_called_once()
+        self.assertEqual(database.load_known_offers(), [later_offer.__dict__])
 
     def test_missing_database_keeps_the_intended_first_start_behavior(self):
         initial_offer = make_offer("initial", "https://example.com/initial")
