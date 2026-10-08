@@ -1897,5 +1897,23 @@
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01662-0201-5117/",
         "latitude": 0.0,
         "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Malchower Weg 99, 13053 Berlin",
+        "price": "ab 55 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02580-0401-5003/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Hundsteinweg 26, 12107 Berlin",
+        "price": "ab 29 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-77802-0201-5091/",
+        "latitude": 0.0,
+        "longitude": 0.0
     }
 ]
