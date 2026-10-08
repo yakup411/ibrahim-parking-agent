@@ -510,5 +510,25 @@
     "Maulbeerallee 35- 43, 13593 Berlin": [
         52.5232139,
         13.1716024
+    ],
+    "Reichweindamm 8, 13627 Berlin": [
+        52.5354626,
+        13.3005626
+    ],
+    "Danckelmannstr. 57, 14059 Berlin": [
+        52.5170427,
+        13.2905729
+    ],
+    "Spandauer Damm 61, 14059 Berlin": [
+        52.5187192,
+        13.2882744
+    ],
+    "Dahrendorfzeile 2, 13627 Berlin": [
+        52.5350301,
+        13.2906266
+    ],
+    "Mollnerweg 35, 12353 Berlin": [
+        52.4187245,
+        13.4437094
     ]
 }

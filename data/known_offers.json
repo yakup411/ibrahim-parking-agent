@@ -1825,5 +1825,77 @@
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02509-0115-5046/",
         "latitude": 0.0,
         "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Charlottenburg-Nord (Bezirk)",
+        "address": "Reichweindamm 8, 13627 Berlin",
+        "price": "55 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01666-0101-5105/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Charlottenburg-Nord (Bezirk)",
+        "address": "13627 Berlin/Charlottenburg-Wilmersdorf",
+        "price": "ab 77 €",
+        "link": "https://www.gewobag.de/mietangebote/standort/0100-01662-0201?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Danckelmannstr. 57, 14059 Berlin",
+        "price": "82.63 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-76025-0201-5040/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Spandauer Damm 61, 14059 Berlin",
+        "price": "ab 82.54 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-76115-0201-5078/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Dahrendorfzeile 2, 13627 Berlin",
+        "price": "ab 77 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01662-0201-5116/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Mollnerweg 35, 12353 Berlin",
+        "price": "ab 82.5 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-77701-0902-5232/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Tiefgaragenstellplatz (Stellplatznr. 77)",
+        "address": "Spandauer Damm 61, 14059 Berlin",
+        "price": "82.54 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-76115-0201-5077/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplatz im Freien (Stellplatznr. 117)",
+        "address": "Dahrendorfzeile 2, 13627 Berlin",
+        "price": "77 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01662-0201-5117/",
+        "latitude": 0.0,
+        "longitude": 0.0
     }
 ]
