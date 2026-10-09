@@ -1915,5 +1915,59 @@
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-77802-0201-5091/",
         "latitude": 0.0,
         "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Daumstr. 123, 13599 Berlin",
+        "price": "ab 110 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01031-1001-5049/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Schwedter Str. 9B, 10119 Berlin",
+        "price": "ab 75 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/1000-00251-0101-5023/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Danziger Str. 176, 10407 Berlin",
+        "price": "ab 75 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/1000-00157-0112-5037/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Tiefgaragenstellplatz (Stellplatznr. 81)",
+        "address": "Daumstr. 123, 13599 Berlin",
+        "price": "110 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01031-1001-5081/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Tiefgaragenstellplatz (Stellplatznr. 16)",
+        "address": "Schwedter Str. 9B, 10119 Berlin",
+        "price": "95 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/1000-00251-0101-5016/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Buckow (Bezirk)",
+        "address": "Marienfelder Chaussee 46, 12349 Berlin",
+        "price": "55 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01761-0116-5006/",
+        "latitude": 0.0,
+        "longitude": 0.0
     }
 ]
