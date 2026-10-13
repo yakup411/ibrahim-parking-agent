@@ -2059,5 +2059,23 @@
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-70110-0202-5111/",
         "latitude": 0.0,
         "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Kiefholzstr. 403/ 404, 12435 Berlin",
+        "price": "110 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02551-0301-5005/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Erich-Boltze-Str. 18, 10407 Berlin",
+        "price": "85 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/1000-00153-0106-5020/",
+        "latitude": 0.0,
+        "longitude": 0.0
     }
 ]
