@@ -2086,5 +2086,14 @@
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02551-0301-5020/",
         "latitude": 0.0,
         "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Daumstr. 123, 13599 Berlin",
+        "price": "70 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01031-1001-5103/",
+        "latitude": 0.0,
+        "longitude": 0.0
     }
 ]
