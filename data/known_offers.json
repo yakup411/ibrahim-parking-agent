@@ -2347,5 +2347,32 @@
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01734-1304-5197/",
         "latitude": 0.0,
         "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Buckow (Bezirk)",
+        "address": "Bienwaldring 29, 12349 Berlin",
+        "price": "45.81 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01708-0401-5009/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Karl-Marx-Allee 72- 90, 10243 Berlin",
+        "price": "ab 85 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02509-0115-5071/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplatz im Freien (Stellplatznr. 100)",
+        "address": "Karl-Marx-Allee 72- 90, 10243 Berlin",
+        "price": "85 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02509-0115-5101/",
+        "latitude": 0.0,
+        "longitude": 0.0
     }
 ]
