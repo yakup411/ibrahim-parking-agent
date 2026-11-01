@@ -148,7 +148,8 @@ class RuntimeSafetyTests(unittest.TestCase):
         self.assertIn("cancel-in-progress: false", workflow)
         self.assertIn("python -m unittest discover -s tests -v", workflow)
         self.assertIn("if: github.event_name != 'pull_request'", workflow)
-        self.assertEqual(workflow.count("runs-on: ubuntu-24.04"), 2)
+        self.assertEqual(workflow.count("runs-on: ubuntu-24.04"), 3)
+        self.assertIn("gh workflow run parking-agent.yml --ref main", workflow)
 
     def test_source_http_retry_policy_is_bounded(self):
         from http_client import source_session
