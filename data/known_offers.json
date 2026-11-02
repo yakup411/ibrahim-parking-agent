@@ -2446,5 +2446,23 @@
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01262-0101-5167/",
         "latitude": 0.0,
         "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Rhinstr. 145- 149, 10315 Berlin",
+        "price": "ab 65 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02562-0201-5114/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplatz im Freien (Stellplatznr. 115)",
+        "address": "Rhinstr. 145- 149, 10315 Berlin",
+        "price": "65 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02562-0201-5115/",
+        "latitude": 0.0,
+        "longitude": 0.0
     }
 ]
