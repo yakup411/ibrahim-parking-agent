@@ -2536,5 +2536,59 @@
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01272-0102-5034/",
         "latitude": 0.0,
         "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Neheimer Str. 6/ 8, 13507 Berlin",
+        "price": "ab 55 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01273-0103-5109/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Namslaustr. 65, 13507 Berlin",
+        "price": "ab 55 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01262-0101-5163/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplatz im Freien (Stellplatznr. 153)",
+        "address": "Neheimer Str. 6/ 8, 13507 Berlin",
+        "price": "65 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01273-0103-5153/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplatz im Freien (Stellplatznr. 192)",
+        "address": "Neheimer Str. 6/ 8, 13507 Berlin",
+        "price": "65 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01273-0103-5192/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplatz im Freien (Stellplatznr. 158)",
+        "address": "Neheimer Str. 6/ 8, 13507 Berlin",
+        "price": "65 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01273-0103-5158/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplatz im Freien (Stellplatznr. 8)",
+        "address": "Wickeder Str. 4/ 6, 13507 Berlin",
+        "price": "65 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01272-0101-5008/",
+        "latitude": 0.0,
+        "longitude": 0.0
     }
 ]
