@@ -2635,5 +2635,14 @@
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01272-0102-5040/",
         "latitude": 0.0,
         "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplatz im Freien (Stellplatznr. 45)",
+        "address": "Altenhofer Str. 30, 13055 Berlin",
+        "price": "65 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02561-0201-5045/",
+        "latitude": 0.0,
+        "longitude": 0.0
     }
 ]
