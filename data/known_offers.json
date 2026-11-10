@@ -2761,5 +2761,14 @@
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01261-0103-5032/",
         "latitude": 0.0,
         "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Tegel (Bezirk)",
+        "address": "13507 Berlin/Reinickendorf",
+        "price": "ab 65 €",
+        "link": "https://www.gewobag.de/mietangebote/standort/0100-01261-0103?parken_type%5B0%5D=NA0070&parken_type%5B1%5D=NA0073&parken_type%5B2%5D=NA0074&parken_type%5B3%5D=NA0075&parken_type%5B4%5D=NA0076&parken_type%5B5%5D=NA0077&parken_type%5B6%5D=NA0079&&status=0",
+        "latitude": 0.0,
+        "longitude": 0.0
     }
 ]
