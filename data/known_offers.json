@@ -2806,5 +2806,14 @@
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02580-0401-5029/",
         "latitude": 0.0,
         "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Rhinstr. 145- 149, 10315 Berlin",
+        "price": "ab 65 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02562-0201-5001/",
+        "latitude": 0.0,
+        "longitude": 0.0
     }
 ]
