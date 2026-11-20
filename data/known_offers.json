@@ -3220,5 +3220,23 @@
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-02624-0101-5005/",
         "latitude": 0.0,
         "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Spandauer Damm 61, 14059 Berlin",
+        "price": "52.03 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-76104-0201-5031/",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Cunostr. 7- 8, 14199 Berlin",
+        "price": "61.33 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/8065-32639-0104-5001/",
+        "latitude": 0.0,
+        "longitude": 0.0
     }
 ]
