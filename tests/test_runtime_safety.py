@@ -143,7 +143,7 @@ class RuntimeSafetyTests(unittest.TestCase):
 
     def test_workflow_keeps_cron_and_prevents_overlapping_runs(self):
         workflow = Path(".github/workflows/parking-agent.yml").read_text(encoding="utf-8")
-        self.assertIn('cron: "*/15 * * * *"', workflow)
+        self.assertIn('cron: "*/30 * * * *"', workflow)
         self.assertIn("concurrency:", workflow)
         self.assertIn("cancel-in-progress: false", workflow)
         self.assertIn("python -m unittest discover -s tests -v", workflow)
