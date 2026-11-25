@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/30 * * * *"
 
 concurrency:
   group: ibrahim-parking-agent
@@ -91,7 +91,7 @@ jobs:
           git push
 
   # GitHub startet den Zeitplan oft nur alle paar Stunden.
-  # Deshalb stößt jeder Lauf 15 Minuten nach seinem Start den nächsten an.
+  # Deshalb stößt jeder Lauf 30 Minuten nach seinem Start den nächsten an.
   # Der Zeitplan oben bleibt als Sicherheit, falls die Kette abreißt.
   naechster-lauf:
     needs: parking-agent
@@ -101,13 +101,13 @@ jobs:
       actions: write
 
     steps:
-      - name: Bis 15 Minuten nach Start warten und nächsten Lauf starten
+      - name: Bis 30 Minuten nach Start warten und nächsten Lauf starten
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
         run: |
           start=$(date -d "$(gh api repos/$GH_REPO/actions/runs/${{ github.run_id }} --jq .run_started_at)" +%s)
-          warten=$(( start + 900 - $(date +%s) ))
+          warten=$(( start + 1800 - $(date +%s) ))
           if [ "$warten" -gt 0 ]; then
             echo "Warte $warten Sekunden."
             sleep "$warten"
