@@ -3328,5 +3328,14 @@
         "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/1000-00160-0101-5012/",
         "latitude": 0.0,
         "longitude": 0.0
+    },
+    {
+        "source": "Gewobag",
+        "title": "Stellplätze/Garagen (Bezirk)",
+        "address": "Goldhähnchenweg 21- 25, 12359 Berlin",
+        "price": "ab 74 €",
+        "link": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/0100-01734-1304-5231/",
+        "latitude": 0.0,
+        "longitude": 0.0
     }
 ]
